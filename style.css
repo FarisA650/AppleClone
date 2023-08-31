@@ -1,0 +1,304 @@
+body{
+    background: #d8d5df;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1;
+}
+
+.fa{
+    margin-right: 15px;
+    padding: 10px
+}
+
+.titlebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d8d5df;
+}
+
+.titleletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store{
+    color: #6e6e73;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-right: 100px;
+}
+
+.sup{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sup img{
+    aspect-ratio: auto 35/35;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.support{
+    display: flex;
+    justify-content: flex-start;
+    align-items:start;
+    flex-direction: column;
+}
+
+.proddisplay{
+    background: #d8d5df;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.probox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 450;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.support a{
+    color: blue;
+    text-decoration: none;
+}
+
+.support a:hover{
+    text-decoration: underline;
+}
+
+.midtext{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: #6e6e73;
+    padding: 20px;
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hovercard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 375px;
+    height: 500px;
+    border-radius: 30px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.card1{
+    background-image: url('card2.jfif');
+    background-size: cover;
+}
+
+.card2{
+    background-image: url('card1.jfif');
+    background-size: cover;
+}
+
+.card3{
+    background-image: url('card3.jfif');
+    background-size: cover;
+}
+
+.card4{
+    background-image: url('card4.jfif');
+    background-size: cover;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+.hovercard:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+}
+
+.hcimg{
+    width: auto;
+    height: auto;
+}
+
+.hl{
+    color: black;
+}
+
+.save{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    padding-left: 20px;
+}
+
+.plus{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+}
+
+.quicklinks p{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+}
+
+.quicklinks{
+    margin-left: 75px;
+}
+
+.quickbuttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 1px solid #aaa;
+}
+
+.btn:hover{
+    background-color: #6e6e73;
+}
+
+footer{
+    flex-direction: column;
+    border-top: 1px solid #6e6e73;
+    border-bottom: 1px solid #6e6e73;
+    border-width: auto;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.store_online{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.store_online ul{
+    list-style-type: none;
+}
+
+.store_online li{
+    margin-bottom: 10px;
+}
+
+.store_online li:hover{
+    text-decoration: underline;
+}
+
+.moreways{
+       margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #6e6e73;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #6e6e73;
+}
+
+.end a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.end a:hover{
+    color: black;
+    text-decoration: underline;
+}
